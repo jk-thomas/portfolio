@@ -4,9 +4,9 @@
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 2rem; 
-    padding: 4rem 1rem; 
+    padding: 1rem 1rem; 
     max-width: 1000px; 
-    margin: 0 auto; 
+    margin: 4rem auto; 
 }
 .card { 
     display: flex;
@@ -21,7 +21,7 @@
 }
 .card:hover { 
     transform: translateY(-5px); 
-    background: #54626b;
+    background: #3d484e;
     box-shadow: 0 1px 3px #2e2e2e;
 }
 .card img { 

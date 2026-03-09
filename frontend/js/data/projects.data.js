@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: "Portfolio Site",
-        description: "This site, containerized and deployed on a self-hosted Raspberry Pi using Docker and reverse proxy routing ",
+        description: "This site, with plans to containerize and deploy on a self-hosted Raspberry Pi using Docker and reverse proxy routing",
         tech: ["HTML/CSS", "Javascript", "Docker", "Nginx"],
         github: "https://github.com/jk-thomas/jkt-portfolio-site",
         live: "",
@@ -10,7 +10,8 @@ export const projects = [
     },
     {
         title: "ValetConnect",
-        description: "Real-time valet service management system, instant messaging between staff and customers",
+        description: `Messaging service targeted towards the valet industry, developing a real-time valet management system 
+        enabling instant communication between customers, valet attendants, and management.`,
         tech: ["React", "NodeJS", "PostgreSQL", "Docker", "Firebase", "AWS"],
         github: "",
         live: "",
@@ -18,7 +19,8 @@ export const projects = [
     },
     {
         title: "Mission EMR",
-        description: "Team developed healthcare application suite for war torn regions",
+        description: `Developed an Android healthcare application in a team of four to support accessible medical records in conflict zones.
+        Built UI components and implemented local data storage using the Hive database within a Flutter mobile architecture.`,
         tech: ["Flutter", "Dart", "Hive (NoSQL)"],
         github: "https://github.com/jk-thomas/Mission-EMR",
         live: "",
@@ -26,7 +28,8 @@ export const projects = [
     },
     {
         title: "Silent Space Locator",
-        description: "Team developed mobile app to find nearest location with least noise",
+        description: `Developed an Android app in a team of four enabling users to locate nearby quiet study spaces on campus.
+        Implemented UI components, authentication, and an audio-level detection algorithm integrating Google Maps location services.`,
         tech: ["Java", "Google Maps/Auth SDK", "Android Studio"],
         github: "https://github.com/jk-thomas/Silent-Spaces-Locator",
         live: "",
@@ -34,7 +37,11 @@ export const projects = [
     },
     {
         title: "UOMe",
-        description: "Lite web app for tracking shared purchases in a group and auto calculates payments",
+        description: `Built a full-stack expense-splitting web app that tracks shared expenses and 
+        auto calculates optimized settlements between group members, with real users.
+        A RESTful backend with Node.js/Express and SQLite for lightweight persistent transaction storage.
+        Developed a React + Vite frontend for real-time balance visualization and expense tracking.
+        Deployed frontend with Vercel and backend on Render, with monitoring via uptime health checks.`,
         tech: ["React", "NodeJS", "Express", "SQLite"],
         github: "https://github.com/jk-thomas/UOMe",
         live: "https://uome-gamma.vercel.app/",
@@ -43,7 +50,8 @@ export const projects = [
     },
     {
         title: "BlogSystem",
-        description: "A blogging website made using the classic LAMP stack",
+        description: `Fullstack blogging website made using the classic LAMP stack. Focusing on CRUD operations, secure data persistence, 
+        and relational database schema to manage posts and user authentication.`,
         tech: ["Linux", "Apache", "MySQL", "PHP"],
         github: "https://github.com/jk-thomas/BlogSystem",
         live: "",
@@ -60,56 +68,56 @@ export const projects = [
         title: "Artificial Intelligence",
         description: "Search, Multi-Agent Search, Reinforcement Learning, Machine Learning",
         tech: ["Python"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS411",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS411",
         live: ""
     },
     {
-        title: "Stay Safe Project",
-        description: "Webapp that shows real-time crime alerts nearby",
-        tech: ["Javascript"],
-        github: "",
-        live: ""
+        title: "Stay Safe",
+        description: "Web app that shows real-time, community-driven crime alerts nearby, reimplemented for UIC Sparkhacks hackathon",
+        tech: ["Javascript", "Bootstrap", "Google API"],
+        github: "https://github.com/jk-thomas/Stay-Safe",
+        live: "https://ptalat2.github.io/hackathon/"
     },
     {
         title: "Concurrent HTTP Server",
         description: "HTTP server implemented with threads",
-        tech: ["C++"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS361",
+        tech: ["C"],
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS361/cs361-sp23-a5-jthom-54",
         live: ""
     },
     {
         title: "Networked Poker",
-        description: "Networked version of 3 Card Poker",
+        description: "Networked version of Three Card Poker",
         tech: ["Java", "JavaFX", "Java Sockets"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS342",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS342/Project3",
         live: ""
     },
     {
         title: "Networked Chatroom",
         description: "Real-time client server chatroom",
         tech: ["Java", "FXML"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS342",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS342/Project4",
         live: ""
     },
     {
         title: "Keno",
         description: "Lottery game",
         tech: ["Java", "JavaFX"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS342",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS342/Project2/ProjectTwo",
         live: ""
     },
     {
         title: "Openstreet Maps",
         description: "Navigation program using openstreetmap",
         tech: ["C++"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS251",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS251/Project%207%20-%20Openstreet%20Maps%20II%20Starter%20Code",
         live: ""
     },
     {
         title: "File Compression",
         description: "File compression program using Huffman algorithm",
         tech: ["C++"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS251",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS251/Project%206%20-%20File%20Compression%20II%20Starter%20Code",
         live: ""
     },
     {
@@ -123,14 +131,14 @@ export const projects = [
         title: "BitTorrent",
         description: "Simulated clients using BitTorrent protocol",
         tech: ["Python"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS407",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS407/BitTorrent",
         live: ""
     },
     {
         title: "Database Applications",
-        description: "Python program to analyze/read/update database",
+        description: "Python program to analyze/read/update CTA Ridership/Movie databases",
         tech: ["Python", "SQLite"],
-        github: "https://github.com/jk-thomas/UIC/tree/main/CS341",
+        github: "https://github.com/jk-thomas/UIC-Projects/tree/main/CS341",
         live: ""
     },
     {
@@ -138,12 +146,12 @@ export const projects = [
         description: "Real-time multiplayer rock, paper, scissors deployed on LAN",
         tech: ["NodeJS", "Express", "Socket.io", "Docker"],
         github: "https://github.com/jk-thomas/odin-rock-paper-scissors/tree/multiplayer",
-        live: "rps.local:3000"
+        live: "http://rps.local:3000"
     },
     {
         title: "Candy Crush",
         description: "JS version of the popular game Candy Crush",
-        tech: ["Javascript"],
+        tech: ["Javascript", "JQuery"],
         github: "",
         live: ""
     },
