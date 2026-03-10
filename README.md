@@ -5,7 +5,7 @@
 * v2 - Nginx / Docker / Cloudflare
 * v3 - React + Responsive
 * v4 - Node.js / Express / MongoDB + Forms
-* v6 - Admin Panel
+* v5 - Admin Panel
 
 ## Potential Plans
 * Host on Raspberry Pi NAS
